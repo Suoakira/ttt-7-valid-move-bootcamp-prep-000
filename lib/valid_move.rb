@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index, xo)
-  if index >= 1 && index <=9
+  index.betwee
     board[index] = xo 
   end
 end
